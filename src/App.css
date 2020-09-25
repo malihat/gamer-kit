@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: #464747;
+}
+
+a {
+  text-decoration: none ;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+
+.nav a {
+  padding-left: 10px;
+}
+
+.header {
+  margin: 100px 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+button {
+  padding: 12px 20px; 
+}
+
+.searchBar input {
+  padding: 10px 30px;
+  margin-top: 20px;
 }
