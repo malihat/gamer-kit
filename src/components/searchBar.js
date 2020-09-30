@@ -3,10 +3,11 @@ import '../App.css';
 
 const SearchBar = () => {
   return (  
-    <div className='searchBar'>
-      <input type='text' placeholder='Search' /> 
-      {/* <i className='fa-search'></i> */}
-    </div>
+  <div className="ui icon input">
+    <input type="text" placeholder="Search..."/>
+    <i aria-hidden="true" class="search icon"></i>
+  </div>
+
   );
 }
  

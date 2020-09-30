@@ -5,7 +5,7 @@ import '../App.css';
 const SignIn = () => {
   return (  
     <div>
-      <button> Sign In </button>
+      <button className="ui button"> Sign In</button>
     </div>
     // <Link to='/'> Sign In </Link>
   );

@@ -11,13 +11,19 @@ import SearchBar from './components/searchBar';
 function App() {
   return (
     <div>
+      <div className='top-image'>
+        <h1> Gamer Kit</h1>
+      </div>
       <div className='header'>
         <Ham />
         <Navbar />
         <SignIn />
       </div>
-
+      <div className='searchBar'>
+          <SearchBar />
+      </div>
     </div>
+
 
     // <BrowserRouter>
     //   <Route exact path='/' component={SignIn}  />

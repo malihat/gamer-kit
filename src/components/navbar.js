@@ -9,9 +9,6 @@ const Navbar = () => {
       <a href="/#"> Reviews </a>
       <a href="/#"> About Us </a>
       <a href="/#"> Contact </a>
-      <div>
-        <SearchBar />
-      </div>
     </div>
   );
 }

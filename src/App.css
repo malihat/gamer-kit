@@ -37,15 +37,34 @@
   }
 } */
 
-body {
-  background-color: #464747;
+.top-image {
+  background-color: yellowgreen;
+  height: 100px;
+  text-align: center;
 }
 
-a {
+i.fas {
+  color: white;
+}
+
+div a {
   text-decoration: none ;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: whitesmoke;
+}
+
+div a:hover {
+  color: white;
+}
+
+.searchBar {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.nav {
+  padding-top: 8px;
 }
 
 .nav a {
@@ -53,23 +72,45 @@ a {
 }
 
 .header {
-  margin: 100px 30px 0;
+  background-color: rgb(71, 71, 71);
+  /* margin-top: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .hamburgerMenu {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+  margin-top: 6px;
 }
+
+.hamburgerMenu a:first-child {
+  padding-top: 20px;
+}
+
+.hamburgerMenu a {
+  text-align: left;
+  padding-top: 10px;
+  color: whitesmoke;
+}
+
+.hide {
+  display: none;
+}
+
+div.hamburgerMenu {
+  background-color: rgb(38, 38, 39);
+  height: 100%;;
+  width: 10%;
+}
+
+/* .input {
+  margin-top: 25px;
+} */
 
 button {
-  padding: 12px 20px; 
+  padding: 0 20px; 
 }
 
-.searchBar input {
-  padding: 10px 30px;
-  margin-top: 20px;
-}
